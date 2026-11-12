@@ -1,3 +1,3 @@
-def call(){
-  echo "hello abdullah mill"
+def call(String url, String branch){
+ git url: "$(url)", branch: "$(branch)"
 }
